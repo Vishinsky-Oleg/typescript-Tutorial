@@ -1,0 +1,9 @@
+npm init [--yes|-y|--scope]   // to init package.json file
+npm i --save-dev lite-server  //to install lite server 
+(in package json add): "start": "lite-server"   
+npm start // to start a developer server to watch in root folder
+
+tsc app.js  // to compile specific file
+tsc // to compile all ts files and folders(specified by tsconfig.json)
+tsc app.js -w || --watch // to watch and recompole specific ts file
+tsc -w || --watch // to watch and recompole all ts files and folders(specified by tsconfig.json)
